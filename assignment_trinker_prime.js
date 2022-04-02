@@ -30,8 +30,8 @@ console.log(answer);
 
 function isPrime(n){
     let i=2;
-    if(n===1 || n===2){
-        return true;
+    if(n===0 || n===1){
+        return false;
     }
     while(i<n){
         if(n%i==0){
